@@ -2,7 +2,8 @@ $installDir = "$env:USERPROFILE\bin"
 New-Item -ItemType Directory -Force -Path $installDir | Out-Null
 
 $urls = @(
-    "https://github.com/saranama69420-source/ezscripts/raw/refs/heads/main/play_mp3_url.exe" // mp3 url player
+    "https://github.com/saranama69420-source/ezscripts/raw/refs/heads/main/play_mp3_url.exe", // mp3 url player
+    "https://github.com/saranama69420-source/ezscripts/raw/refs/heads/main/play_mp4_url.exe", // mp4 url player
 )
 
 for ($i = 0; $i -lt $urls.Count; $i++) {
